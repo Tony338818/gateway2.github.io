@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;">
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Practice area</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src='main.js'></script>
+   <style>
+       .head{
+   box-sizing: border-box;
+   background-image: url(images/Fresh.jpg);
+   width: 100%;
+   height: 400px;
+   /* background-attachment: fixed; */
+   color: dimgrey;
+   background-size: cover;
+   /* overflow: hidden;  */
+   position: relative;
+}
+.Top{
+   display: flex;
+   font-size: 16px;
+}
+.left {
+   padding: 20px;
+   float: left;
+   width: 75%; 
+ }
+ .right {
+   padding: 20px;
+   float: left;
+   width: 25%; 
+ }
+ @media screen and (max-width: 900px) {
+   .left,.right {
+      width: 100%; 
+     font-size: 7px;
+   }
+   .right{
+       width: 25%;
+   }
+   .left{
+       width:75%;
+   }
+   .head{
+     box-sizing: border-box;
+     background-image: url(images/Fresh.jpg);
+     width: 100%;
+     height: 400px;
+     /* background-attachment: fixed; */
+     color: dimgrey;
+     background-size: cover;
+     /* overflow-x: hidden;  */
+     position: relative;
+  }
+ }
+ div .logo{
+   display: flex;
+   float: left;
+   margin: 5px 0px 5px 20px;
+   padding-top: 20px;
+}
+@media screen and (max-width: 900px) {
+    nav .nav a{
+       display: grid;
+    }
+} 
+div .next{
+ /* background-color: burlywood; */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+/* .topnav {
+ overflow: hidden;
+ background-color: #333;
+} */
+
+.topnav a {
+ float: left;
+ display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 30px;
+ text-decoration: none;
+ font-size: 15px;
+}
+.topnav a.active {
+ font-weight: bold;
+ color: white;
+}
+
+.topnav .icon {
+ display: none;
+}
+
+@media screen and (max-width: 900px) {
+ .topnav a{display: none;}
+ .topnav a.icon {
+   float: right;
+   display: block;
+ }
+}
+
+@media screen and (max-width: 900px) {
+ .topnav.responsive {position: relative;}
+ .topnav.responsive .icon {
+   position: absolute;
+   right: 0;
+   top: 0;
+ }
+ .topnav.responsive a {
+   float: none;
+   display: block;
+   text-align: left;
+ }
+}
+h1{
+ text-align: center;
+ font-size: 4rem;
+ color: white;
+ font-weight: 700;
+ font-family: 'Lora', serif
+}
+h6{
+   font-size: 1rem;
+   margin-left: 0px;
+   color: dimgrey;
+}
+h3:before{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: -38px;
+ width: 80px;
+ height: 2px;
+ background-color: #ff974f;
+}
+h3{
+   font-size: 2rem;
+   margin-left: 0px;
+   color: black;  
+}
+
+blockquote{
+   padding: 10px 20px;
+   margin: 0 0 20px;
+   font-size: 17.5px;
+   border-left: 5px solid #eee;
+   margin-left: 40px;
+}
+.body p{
+   margin-right: 700px;
+   font-size: 18px;
+   color: dimgrey;
+}
+.active{
+   font-weight: bold;
+}
+.menu{
+   border: 2px solid #ff974f;
+   border-radius: 4px;
+   padding: 12px 22px;
+}
+@media screen and (max-width: 900px){
+   .body p{
+   margin-right: 0px;
+   font-size: 18px;
+   color: dimgrey;
+}
+}
+.end{
+    background-image: url(images/reads.jpg);
+    height: 780px;
+    overflow: hidden;
+    padding: 80px;
+}
+.real{
+    border: 2px solid #fff;
+    max-width: 99%;
+    height: 800px;
+    display: flex;
+    margin-left: 10px;
+    background-color: #fff;
+}
+.hmm .social-links #face{
+    padding: 10px 20px; 
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.hmm .social-links :hover{
+    color: #ff974f;
+}
+form{
+    margin-left: 300px;
+    padding : 40px 22px;
+}
+form .name{
+    padding: 30px 80px;
+    border-radius: 5px;
+}
+.menu{
+    border: 2px solid #ff974f;
+    border-radius: 4px;
+    padding: 12px 22px;
+}
+::placeholder{
+    text-align: left;
+}
+.message{
+    padding: 50px 83px;
+    border-radius: 5px;
+}
+.submit{
+    padding: 14px 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff974f;
+    border: 1px solid #ff974f;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.submit:hover{
+    background-color: #ff984fe1;
+}
+p4{
+    font-size: 15px;
+    color: black;
+}
+@media screen and (max-width: 900px){
+  .end{
+    background-image: url(images/reads.jpg);
+    background-size: cover;
+    height: 1280px;
+    overflow: hidden;
+    padding: 80px ;
+  }
+  .real{
+    display: block;
+    border: 2px solid #fff;
+    max-width: 100%;
+    height: 1300px;
+    margin-right: 10px;
+    background-color: #fff;
+  }
+  .hmm .social-links  #face{
+    padding: 1px 5px; 
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+  }
+  .hmm .social-links  #face:hover{
+    color: #ff974f;
+  }
+  form{ 
+    margin-left: 120px;
+    padding : 40px 22px;
+  }
+  .message{
+    padding: 50px 89px;
+    border-radius: 5px;
+  }
+  .submit{
+    padding: 14px 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff974f;
+    border: 1px solid #ff974f;
+    border-radius: 5px;
+    margin-left: 110px;
+  }
+}
+a.contact{
+  border: 1px solid #ff974f;
+  padding: 14px 22px;
+}
+
+   </style>
+</head>
+<body>
+   <div class="head">
+       <div class="Top">
+          <div class="left">
+           <i class="fa fa-map-marker" style="font-size:14px;color:#ff974f;"></i>
+           <span style="color:#fff;">Address:</span> H - 535. Road 3. Ikota Shopping Complex, VGC, Lekki- Ajah, Lagos Nigeria.
+           </div>
+           <div class="right">
+           <i class="fa fa-phone" style="font-size:14px;color:#ff974f;"></i>
+           <span style="color:#fff;">Call us at:</span> ‎08032688831 | 08050504174 
+           </div>
+       </div>
+   <div class="next">
+       <div class="logo">
+           <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+       </div>
+       <div class="topnav" id="myTopnav">
+           <a href="Gateway.html" class="active">Home</a>
+           <a href="About us.html">About us</a>
+           <a href="practice area.html">Practice area</a>
+           <a href="#contact" class="contact">Contact us</a>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+             <i class="fa fa-bars"></i>
+           </a>
+         </div>
+         <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+         </script>
+   </div><br>
+   <h1> Practice area</h1>
+</div>
+</header><br><br><br><br>
+<h6>Our Services</h6>
+<div> <h3>Practice Areas</h3></div>	<br>
+   
+   <h6>Our Practice Area Includes:</h6><br>
+   <blockquote>- Real Estate transactions & litigation<br>
+- Corporate & Commercial Litigation<br>
+- Civil & Criminal Litigation<br>
+- Insurance<br>
+- Maritime<br>
+- Debt Recovery<br>
+- Oil, Gas and Energy<br>
+- Arbitration and Mediation<br>
+- Intellectual Property<br>
+- Government Affairs & Regulatory Issues</blockquote>
+<div class="body">
+   <p>Real Estate Transactions: We handle all aspects of real estate transactions, as well as real estate litigation. Our lawyers provide skilled legal counsel to clients involved in a wide range of real estate transactions. We represent buyers and sellers in complex real estate purchase and sale transactions, leases and subleases on behalf of landlords and tenants. Whether you are buying, selling, leasing or playing any other role in a real estate transaction, contact us to get sophisticated legal counsel to assist you with the pursuit of a successful outcome.<br><br>
+
+
+Corporate & Commercial Litigation: Our lawyers represent business and nonprofit entities throughout the country in litigating a wide range of business and commercial disputes.<br>
+
+Arbitration and Alternative Dispute Resolution: We are experienced at representing clients in the unique context of ADR in real estate, business partnerships and other commercial areas. We represent client who are involved in any dispute that may go into arbitration or mediation. We represent clients in other forms of alternative dispute resolution (ADR), including mediation.<br><br>
+
+Maritime Law: (also known as Admiralty Law) is a separate body of law governing a variety of maritime-related disputes. Our Law Firm have a broad wealth of knowledge concerning this area of law: cargo carriage disputes; oil spills; vessel operation; commercial/contractual claims and a variety of other maritime disputes.<br><br>
+
+Insurance: Insurance provides an important form of security for individuals in a wide range of situations. In the event of a serious accident, insurance can help to cover the costs. We have substantial experience helping clients in a wide range of different situations. We work to hold insurers accountable for the responsibilities they have towards their clients. Sometimes, you don’t have to pay for our services until we recover compensation through your insurer.<br><br>
+
+Debt recovery; The prospect of pursuing commercial debt can be a trying experience for creditors: instituting legal proceedings can carry significant costs and be time consuming. Our team offer an expert service, navigating our clients through the legal processes necessary to recover the commercial debt they are due. We act for both commercial and personal clients in debt recovery, from small claims up to long-term debts.<br><br>
+
+
+Oil, Gas and Energy: We have extensive experience in oil, gas and energy transactional matters. The combined expertise of our lawyers allows us to provide the highest quality representation available to our oil and gas clients in virtually all aspects of their business such as: Regulatory Compliance and Authority, Drilling Title Opinions, • Document and Transactional Drafting, Joint Operating Agreements, Leases, Permits etc. Attention to detail, comprehensive knowledge and experience form the foundation of our approach, and our diligence is second to none. Additionally, we understand that many of these issues are time-sensitive and therefore, we do everything possible to accommodate the demands of the situation and to facilitate the transaction rather than impede it.<br><br>
+
+
+Intellectual Property: Protecting your intellectual property rights is vital if you wish to retain control of your ideas and products and reap the rewards of your developments. We provide a full service from the acquisition, exploitation and protection of intellectual property, through to its commercial use and the handling of infringement and other contentious issues. We can also assist you at any stage of your venture, whether you have just finalized a concept you wish to patent, are transferring various IP assets, wish to invest in IP or are involved in IP litigation.<br><br>
+
+
+Government Affairs & Regulatory Issues: Today's business environment is frequently clouded by state and local regulations, policies and new legislation, which can have significant impact on the cost and operation of your business, organization or profession. Having the right person in your corner to advocate on your behalf can be a crucial factor in your organization’s success. When selecting your advisors, you need a team with the right relationships, the political intelligence, the legal knowledge and a reputation for delivering results. Our team brings together deep regulatory knowledge and policy advocacy experience with local insight. We deliver results on a local or international level.</p>
+   <a href="#contact" class="btn btn-default outline">Talk To Us Now!</a>
+</div><br><br>
+
+<section class="end" id="contact">
+<div class="real">
+<div class="last" style="margin:100px ;">
+<h6>Talk To Us Now!</h6>
+<h3>Contact Us</h3>
+<p4>Our Lawyers are ready, willing to assist you.</p4>
+<h6 style="font-size:20px ;"><span class="fa fa-phone"></span>Phone :</h6>
+<p4>‎08032688831 | 08050504174</p4>
+<h6 style="font-size:20px ;"><span class="fa fa-envelope-o"></span>Email :</h6>
+<p4>info@gokeijiola.com</p4>
+<h6 style="font-size:20px ;"><span class="fa fa-map-marker"></span>Address :</h6>
+<p4>H - 535. Road 3. Ikota Shopping Complex, VGC,<br> Lekki- Ajah, Lagos Nigeria. </p4>
+</div>
+<div class="hmm">
+<ul class=" social-links" style="margin-left:320px;">
+<i class="fa fa-facebook" style="font-size:15px;" id="face"></i>
+<i class="fa fa-twitter" style="font-size:15px;" id="face"></i>
+<i class="fa fa-linkedin" style="font-size:15px;" id="face"></i>                 
+<i class="fa fa-instagram" style="font-size:15px;" id="face"></i>
+<i class="fa fa-vimeo" style="font-size:15px;" id="face"></i>
+</ul> 
+<form>
+<input type="text" placeholder="Name" class="name"><br><br>
+<input type="email" placeholder="Email" class="name"><br><br>
+<textarea type="message" placeholder="message" class="message"> </textarea><br><br><br><br>
+<input type="submit" value="Send Message" class="submit">
+</form>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>
